@@ -6,10 +6,10 @@ The **OBPP Top 3 for 2016** is the first and most recent edition this project. T
 
 ## Project Schedule (Estimated):
 
-January 3, 2017: Publish alpha draft internally for private review **(in progress)**
-January 13: Publish beta draft for public review
-January 27: Finalize changes from public review, freeze on feedback for this edition begins
-February 1: Publish OBPP Top 3 for 2016 documentation, begin feedback for OBPP Top 3 for 2017
+* January 3, 2017: Publish alpha draft internally for private review **(in progress)**
+* January 13: Publish beta draft for public review
+* January 27: Finalize changes from public review, freeze on feedback for this edition begins
+* February 1: Publish OBPP Top 3 for 2016 documentation, begin feedback for OBPP Top 3 for 2017
 
 ## About the OBPP
 
