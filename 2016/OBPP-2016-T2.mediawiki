@@ -77,12 +77,7 @@ TODO
 
 == Note ==
 
-When looking up wallet addresses or transactions on block explorer websites, be
- cautious that these lookups can compromise your wallet’s privacy. Consider
- using [https://www.torproject.org/projects/torbrowser.html Tor Browser] to hide
- your machine’s network identity, and create a new Tor Identity in between each
- piece of blockchain data you look up to avoid correlating them from the
- perspective of the block explorer website.
+When looking up wallet addresses or transactions on block explorer websites, be cautious that these lookups can compromise your wallet’s privacy. Consider using [https://www.torproject.org/projects/torbrowser.html Tor Browser] to hide your machine’s network identity, and create a new Tor Identity in between each piece of blockchain data you look up to avoid correlating them from the perspective of the block explorer website.
 
 == References ==
 
