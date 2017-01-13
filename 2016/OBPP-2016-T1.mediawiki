@@ -34,11 +34,11 @@ Blockchain Observer: A Blockchain Observer is an attacker who downloads
 
 === Prevalence ===
 
-'''Common'''. During 2016, 20.1% of transactions merged multiple inputs in a
+'''Common'''. During 2016, <ref>20.1% of transactions merged multiple inputs in a
  single spend,
- <ref>[https://twitter.com/laurentmt/status/818865122244513794 Tweet by LareuntMT]
+ <ref>[https://twitter.com/laurentmt/status/818865122244513794 Tweet by LareuntMT], Twitter.com</ref>
  and 81% of transactions with more than one input do so.
- <ref>[https://twitter.com/khannib/status/818866696421314560 Tweet by khannib]
+ <ref>[https://twitter.com/khannib/status/818866696421314560 Tweet by khannib], Twitter.com</ref>
 
 === Detectability ===
 
