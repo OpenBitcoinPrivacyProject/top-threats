@@ -23,7 +23,7 @@ Network Observer: A Network Observer is any attacker who uses passive or active 
 
 === Prevalence ===
 
-'''Common'''. A local copy of the blockchain is used to source data for approximately 1 out of every 4 or 5 transactions. <ref>[https://www.kristovatlas.com/estimating-bitcoinds-share-of-blocks/ Estimating Bitcoind's Share of Blocks] Most Bitcoin software that obtains such data from remote sources either does not support the use of privacy networks, or does not do so by default and requires substantial configuration effort by the user to enable it.
+'''Common'''. A local copy of the blockchain is used to source data for approximately 1 out of every 4 or 5 transactions. <ref>[https://www.kristovatlas.com/estimating-bitcoinds-share-of-blocks/ Estimating Bitcoind's Share of Blocks], kristovatlas.com</ref> Most Bitcoin software that obtains such data from remote sources either does not support the use of privacy networks, or does not do so by default and requires substantial configuration effort by the user to enable it.
 
 === Detectability ===
 
