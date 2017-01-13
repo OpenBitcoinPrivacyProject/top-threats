@@ -26,58 +26,58 @@ Non-technical reviewers can help out by copy editing (correcting mistakes and
 
 ## FAQ
 
-1. Why start with just 3 categories?
+1.  Why start with just 3 categories?
 
-This project is modeled after the OWASP Top 10 project. After organizing the
- criteria in our 2nd edition threat model, we determined that there weren't 10
-  well-defined threat categories presently, which is what you'd expect for a
-  field that is much newer than Web application security. These first 3 threat
-  categories account for 68% of the weight assigned to the criteria in our 2nd
-  edition threat model. Over the years, we expect that the number of threat
-  categories covered by this project will increase. Note that our threat model
-  is the primary project intended to cover many threats, while this project
-  should focus on the ones that are **most important** for everyone to know
-  about.
+    This project is modeled after the OWASP Top 10 project. After organizing the
+    criteria in our 2nd edition threat model, we determined that there weren't
+    10 well-defined threat categories presently, which is what you'd expect for
+    a field that is much newer than Web application security. These first 3
+    threat categories account for 68% of the weight assigned to the criteria in
+    our 2nd edition threat model. Over the years, we expect that the number of
+    threat categories covered by this project will increase. Note that our
+    threat model is the primary project intended to cover many threats, while
+    this project should focus on the ones that are **most important** for
+    everyone to know about.
 
-2. Where can I find the second edition threat model?
+2.  Where can I find the second edition threat model?
 
-This is currently split into two documents. The
- [“threat model” document](https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/threat%20model.wiki)
- lists the attacker, attack, and countermeasure categories . The
- [“criteria” document](https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/criteria.md)
- lists the criteria under the various countermeasure categories . The third
- edition of the threat model imposes a JSON-based format for all of this data as
- well as generated documentation; we will back-port the second edition to this
- new format once the format has been finalized.
+    This is currently split into two documents. The
+    [“threat model” document](https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/threat%20model.wiki)
+    lists the attacker, attack, and countermeasure categories . The
+    [“criteria” document](https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/criteria.md)
+    lists the criteria under the various countermeasure categories . The third
+    edition of the threat model imposes a JSON-based format for all of this data
+    as well as generated documentation; we will back-port the second edition to
+    this new format once the format has been finalized.
 
-3. What kind of feedback should I provide?
+3.  What kind of feedback should I provide?
 
-Our goal is to make sure that the threat categories meet these criteria:
-* They should be common and severe, more so than other categories
-* The categories should be well-defined and make sense
-* The categories should be relevant to both users and developers
+    Our goal is to make sure that the threat categories meet these criteria:
+    * They should be common and severe, more so than other categories
+    * The categories should be well-defined and make sense
+    * The categories should be relevant to both users and developers
 
-The copy for each attack category should be include a succinct and jargon-free
- explanation for common users.
+    The copy for each attack category should be include a succinct and
+    jargon-free explanation for common users.
 
-Ultimately, we would love to be able to offer specific technical feedback to
- developers on how to identify and fix these vulnerabilities. Ideally we could
- provide example code in a variety of languages and/or for a variety of popular
- Bitcoin software libraries. If you have any expertise in this area, consider
- contributing.
+    Ultimately, we would love to be able to offer specific technical feedback to
+    developers on how to identify and fix these vulnerabilities. Ideally we
+    could provide example code in a variety of languages and/or for a variety of
+    popular Bitcoin software libraries. If you have any expertise in this area,
+    consider contributing.
 
-Editorial feedback on the copy is also welcome.
+    Editorial feedback on the copy is also welcome.
 
-4. How flexible will these documents be in the future?
+4.  How flexible will these documents be in the future?
 
-After the "public comment" period has passed, the threat categories and their
- identifiers will enter a *change freeze*. However, the rest of the copy may be
- updated as necessarily. Most likely, changes to the current edition will peter
- out as we start working on on the next version.
+    After the "public comment" period has passed, the threat categories and
+    their identifiers will enter a *change freeze*. However, the rest of the
+    copy may be updated as necessarily. Most likely, changes to the current
+    edition will peter out as we start working on on the next version.
 
-5. How long do I have to provide feedback?
+5.  How long do I have to provide feedback?
 
-Please see the calendar listed under the [README](README.md).
+    Please see the calendar listed under the [README](README.md).
 
 ## Contact
 
