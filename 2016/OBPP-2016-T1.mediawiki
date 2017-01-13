@@ -27,7 +27,7 @@ Blockchain Observer: A Blockchain Observer is an attacker who downloads informat
 
 === Detectability ===
 
-'''Easy'''. Users and auditors of Bitcoin software can identify when funds from the same wallet are merged in a single transaction by looking at transactions authored by their software using local blockchain copies or blockchain explorer websites. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!)
+'''Easy'''. Users and auditors of Bitcoin software can identify when funds from the same wallet are merged in a single transaction by looking at transactions authored by their software using local blockchain copies or blockchain explorer websites. ([[#Note]]: Users should be cautious of adverse privacy consequences when using block explorer websites!)
 
 === Impact ===
 
@@ -35,12 +35,12 @@ Blockchain Observer: A Blockchain Observer is an attacker who downloads informat
 
 === Am I Vulnerable? ===
 
-The vast majority of Bitcoin software projects are prone to this form of information disclosure. Some Bitcoin software mitigates this weakness with CoinJoin-like protocols or transaction construction protocols such as that described in [https://github.com/bitcoin/bips/blob/master/bip-0126.mediawiki BIP 126]. A simple way to test this is to perform a few sample transactions and examine the results on a local blockchain copy or explorer website. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!) The following protocol can help you perform this test:
+The vast majority of Bitcoin software projects are prone to this form of information disclosure. Some Bitcoin software mitigates this weakness with CoinJoin-like protocols or transaction construction protocols such as that described in [https://github.com/bitcoin/bips/blob/master/bip-0126.mediawiki BIP 126]. A simple way to test this is to perform a few sample transactions and examine the results on a local blockchain copy or explorer website. ([[#Note]]: Users should be cautious of adverse privacy consequences when using block explorer websites!) The following protocol can help you perform this test:
 
 # In an empty wallet, generate a new receiving address and send a small amount of funds to the address.
 # Generate a second receiving address, and send funds to it.
 # Send an amount of funds greater than the amount you sent individually to either of those two receiving addresses to another address outside of the wallet you’re testing. Observe whether the software shows any warnings or errors. If it allows you to complete the transaction, your software may exhibit this input merging weakness.
-# Examine the sending transaction in your software if possible, or use a local blockchain copy or blockchain explorer website. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!) If there are addresses listed in the list of inputs that are in addition to the two receiving addresses you generated earlier, your software may be utilizing a CoinJoin-like protocol to combine funds with other parties to mitigate this weakness.
+# Examine the sending transaction in your software if possible, or use a local blockchain copy or blockchain explorer website. ([[#Note]]: Users should be cautious of adverse privacy consequences when using block explorer websites!) If there are addresses listed in the list of inputs that are in addition to the two receiving addresses you generated earlier, your software may be utilizing a CoinJoin-like protocol to combine funds with other parties to mitigate this weakness.
 
 Your software provider should be able to provide you with details concerning this weakness, as well as plans to improve defenses in their future development roadmap.
 
