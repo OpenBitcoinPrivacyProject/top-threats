@@ -96,8 +96,7 @@ When looking up wallet addresses or transactions on block explorer websites, be 
 
 == External Links ==
 
-* [http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf “A Fistful of Bitcoins: Characterizing Payments Among
-Men with No Names”. Meiklejohn et al.]
+* [http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf “A Fistful of Bitcoins: Characterizing Payments Among Men with No Names”. Meiklejohn et al.]
 * [https://en.bitcoin.it/wiki/Transaction#Input Transaction input. Bitcoin Wiki.]
 * [https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/ Bitcoin Privacy Threat Model, 2nd Edition. Open Bitcoin Privacy Project]
 
