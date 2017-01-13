@@ -18,10 +18,10 @@ The **OBPP Top 3 for 2016** is the first and most recent edition this project.
 
 ## Public RFC
 
-To make this project great, we need your help. There are instructions for
- aspiring technical and non-technical reviewers
- [here](HOW-TO-PROVIDE-FEEDBACK.md), and for GitHub contributors
- [here](HOW-TO-CONTRIBUTE.md).
+To make this project a great resource for the Bitcoin user and developer
+ community, we need your help. There are instructions for aspiring technical and
+ non-technical reviewers [here](HOWTO-PROVIDE-FEEDBACK.md), and for GitHub
+ contributors [here](HOWTO-CONTRIBUTE.md).
 
 All working drafts can be found in the [2016](2016/) directory.
 
