@@ -12,7 +12,7 @@ Please provide feedback on any of the following:
  of your choice.
 * If you've read academic papers or whitepapers on privacy, please let us know
  which threat category they are relevant to as references. Here's a
- [list of whitepapers](https://docs.google.com/document/d/1oDJ3S3M_LnThTWuuqLiCK0Z7SpW1loU7Ayep52QLMTg/edit?usp=sharing)
+ [list of whitepapers](https://docs.google.com/spreadsheets/d/1washrMyOa1pWDFPmux-Va9dgxA-Vz-0HO5fvMPsRUWU/edit?usp=sharing)
  we've partially reviewed from the Bitcoin Wiki. If there are relevant websites,
  please submit these as references, as well.
 
