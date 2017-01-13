@@ -27,7 +27,7 @@ Blockchain Observer: A Blockchain Observer is an attacker who downloads informat
 
 === Detectability ===
 
-'''Easy'''. Users and auditors of Bitcoin software can identify when addresses are reused by looking at the transaction history of receiving and change addresses on the blockchain using local blockchain copies or blockchain explorer websites. ([[#Note]: Users should be cautious of adverse privacy consequences when using block explorer websites!)
+'''Easy'''. Users and auditors of Bitcoin software can identify when addresses are reused by looking at the transaction history of receiving and change addresses on the blockchain using local blockchain copies or blockchain explorer websites. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!)
 
 === Impact ===
 
@@ -40,7 +40,7 @@ The majority of Bitcoin software is no longer prone to this form of information 
 # In an empty wallet, generate a new receiving address and send small amount of funds to the address.
 # Go through the default or most natural receiving workflow to receive additional funds.
 # After at least one of the transactions has confirmed in the Bitcoin network, send some funds to an external address or wallet. The amount should not be equal to the amount you received in the first two transactions, resulting in your Bitcoin software arranging to receive the difference as one or more “change outputs.”
-# View all three transactions using a local source of blockchain data, or a block explorer website. ([[#Note]: Users should be cautious of adverse privacy consequences when using block explorer websites!) Observe whether the receiving address is the same for your first two receipts. In the third transaction, observe whether any of the change addresses are the same as one another or the same as any of the input addresses.
+# View all three transactions using a local source of blockchain data, or a block explorer website. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!) Observe whether the receiving address is the same for your first two receipts. In the third transaction, observe whether any of the change addresses are the same as one another or the same as any of the input addresses.
 
 Your software provider should be able to provide you with details concerning this weakness, as well as plans to improve defenses in their future development roadmap.
 
