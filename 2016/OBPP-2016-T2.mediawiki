@@ -23,7 +23,7 @@ Blockchain Observer: A Blockchain Observer is an attacker who downloads informat
 
 === Prevalence ===
 
-'''Common'''. During 2016, between 43% and 68% of transactions reused Bitcoin addresses. <ref>[https://oxt.me/charts Bitcoin address reuse chart by oxt.me]
+'''Common'''. During 2016, between 43% and 68% of transactions reused Bitcoin addresses. <ref>[https://oxt.me/charts Bitcoin address reuse chart], oxt.me</ref>
 
 === Detectability ===
 
@@ -31,7 +31,7 @@ Blockchain Observer: A Blockchain Observer is an attacker who downloads informat
 
 === Impact ===
 
-'''High'''. Avoiding the reuse of Bitcoin addresses is the most basic form of privacy protection in Bitcoin, as described in Satoshi’s whitepaper. <ref>[https://en.bitcoin.it/wiki/Bitcoin_whitepaper Bitcoin: A Peer-to-Peer Electronic Cash System] Without it analysis of an individual’s or organization’s finances becomes trivial.
+'''High'''. Avoiding the reuse of Bitcoin addresses is the most basic form of privacy protection in Bitcoin, as described in Satoshi’s whitepaper. <ref>[https://en.bitcoin.it/wiki/Bitcoin_whitepaper Bitcoin: A Peer-to-Peer Electronic Cash System], Bitcoin Wiki</ref> Without it analysis of an individual’s or organization’s finances becomes trivial.
 
 === Am I Vulnerable? ===
 
