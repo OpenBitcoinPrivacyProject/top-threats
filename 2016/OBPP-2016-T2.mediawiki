@@ -15,11 +15,7 @@ Sending funds to the same Bitcoin address in multiple transactions provides stro
 
 === Attacker Category ===
 
-Blockchain Observer: A Blockchain Observer is an attacker who downloads
- information from the Bitcoin blockchain and performs statistical analysis on it
- to notice patterns that suggest common ownership of funds. It is easy for
- anyone to become such an attacker since operating a full node is inexpensive
- and completely open to the public by design.
+Blockchain Observer: A Blockchain Observer is an attacker who downloads information from the Bitcoin blockchain and performs statistical analysis on it to notice patterns that suggest common ownership of funds. It is easy for anyone to become such an attacker since operating a full node is inexpensive and completely open to the public by design.
 
 === Exploitability ===
 
