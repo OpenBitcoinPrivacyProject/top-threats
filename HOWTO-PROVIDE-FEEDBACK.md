@@ -89,4 +89,4 @@ You can provide feedback in the form of
 You may also heckle us on Twitter [@obpp_org](https://www.twitter.com/obpp_org)
 
 The best way to ensure that your feedback is incorporated is to submit a pull
- request. Refer to: [HOWTO-CONTRIBUTE.md](HOW-TO-CONTRIBUTE.md).
+ request. Refer to: [HOWTO-CONTRIBUTE.md](HOWTO-CONTRIBUTE.md).
