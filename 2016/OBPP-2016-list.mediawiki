@@ -9,8 +9,7 @@
 
 == Introduction ==
 
-For more information about the OBPP Top 3 Threats project, please refer to our
-  [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/README.md general project documentation].
+For more information about the OBPP Top 3 Threats project, please refer to our [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/README.md general project documentation].
 
 == OBPP Top 3 for 2016 ==
 
@@ -22,11 +21,7 @@ For more information about the OBPP Top 3 Threats project, please refer to our
 
 === Description ===
 
-When funds residing in multiple Bitcoin addresses or scripts are spent as inputs
- in the same transaction, this indicates to attackers that the funds are all
- owned by the same person or organization. Multi-party mixing protocols such as
- CoinJoin are a common mitigation against this blockchain-based information
- leak.
+When funds residing in multiple Bitcoin addresses or scripts are spent as inputs in the same transaction, this indicates to attackers that the funds are all owned by the same person or organization. Multi-party mixing protocols such as CoinJoin are a common mitigation against this blockchain-based information leak.
 
 === Details ===
 
@@ -36,10 +31,7 @@ See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/2016/OBPP-
 
 === Description ===
 
-Sending funds to the same Bitcoin address in multiple transactions provides
- strong indication to privacy attackers that the funds are owned by the same
- entity. For this reason, a new Bitcoin address should be used to receive funds
- for each transaction.
+Sending funds to the same Bitcoin address in multiple transactions provides strong indication to privacy attackers that the funds are owned by the same entity. For this reason, a new Bitcoin address should be used to receive funds for each transaction.
 
 === Details ===
 
@@ -49,11 +41,7 @@ See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-
 
 === Description ===
 
-Bitcoin software networks with remote machines to download updates to the
- Bitcoin blockchain and broadcast new transactions. Without protection
- mechanisms, these network connections can betray information about the user’s
- identity to peers and third party network observers. This creates a link for
- strangers between the user’s real world identity and his transactions.
+Bitcoin software networks with remote machines to download updates to the Bitcoin blockchain and broadcast new transactions. Without protection mechanisms, these network connections can betray information about the user’s identity to peers and third party network observers. This creates a link for strangers between the user’s real world identity and his transactions.
 
 === Details ===
 
@@ -63,20 +51,11 @@ See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-
 
 === Blockchain Observer ===
 
-A Blockchain Observer is an attacker who downloads information from the Bitcoin
- blockchain and performs statistical analysis on it to notice patterns that
- suggest common ownership of funds. It is easy for anyone to become such an
- attacker since operating a full node is inexpensive and completely open to the
- public by design.
+A Blockchain Observer is an attacker who downloads information from the Bitcoin blockchain and performs statistical analysis on it to notice patterns that suggest common ownership of funds. It is easy for anyone to become such an attacker since operating a full node is inexpensive and completely open to the public by design.
 
 === Network Observer ===
 
-A network observer is any attacker who uses passive or active network-based
- attacks to breach the privacy of his victim. For wallets connecting to the
- Bitcoin P2P network, such attackers often include nodes in the Bitcoin network
- and infrastructure providers such as ISPs. For client-server based wallets such
- as web wallets, the wallet provider is a potential network attacker, in
- addition to ISPs.
+A network observer is any attacker who uses passive or active network-based attacks to breach the privacy of his victim. For wallets connecting to the Bitcoin P2P network, such attackers often include nodes in the Bitcoin network and infrastructure providers such as ISPs. For client-server based wallets such as web wallets, the wallet provider is a potential network attacker, in addition to ISPs.
 
 == Copyright ==
 
