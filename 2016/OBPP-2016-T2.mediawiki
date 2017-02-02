@@ -8,7 +8,6 @@ Sending funds to the same Bitcoin address in multiple transactions provides stro
 File:../images/addressreuse1.png|''Example of an address reused many times to receive funds''|alt=Example of an address reused many times to receive funds
 File:../images/addressreuse2.png|''Example of an address reused to receive change''|alt=Example of an address reused to receive change
 File:../images/addressreuse3.png|''Example of healthy address use: One receive tx, one send tx, 0 balance left over''|Example of healthy address use: One receive tx, one send tx, 0 balance left over
-{...}
 </gallery>
 
 === Attacker Category ===
