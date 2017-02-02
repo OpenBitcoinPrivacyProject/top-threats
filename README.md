@@ -4,18 +4,16 @@ The OBPP Top Threats Project lists the most prominent threats to Bitcoin user
  privacy. This is a resource for developers, users, and educators to identify
  weaknesses in software and products, and to guide their future remediation.
 
-The **OBPP Top 4 for 2016** is the first and most recent edition this project.
- The project is currently in **public review**. When this phase ends, feedback
- will be integrated and prepared for a final release.
+ == OBPP Top 4 for 2016 ==
 
-## Project Schedule (Estimated):
+_Published February 1, 2017_
 
-* ~~January 3, 2017: Publish alpha draft internally for private review~~
-* ~~January 13: Publish beta draft for public review~~
-* January 27: Finalize changes from public review, freeze on feedback for this
- edition begins **(in progress)**
-* February 1: Publish OBPP Top 4 for 2016 documentation, begin feedback for OBPP
- Top 4 for 2017
+ * **[OBPP-2016-T1](2016/OBPP-2016-T1.mediawiki)**: Merging co-owned funds
+ * **[OBPP-2016-T2](2016/OBPP-2016-T2.mediawiki)**: Reusing Bitcoin addresses
+ * **[OBPP-2016-T3](2016/OBPP-2016-T3.mediawiki)**: Linking network identity to Bitcoin address
+ * **[OBPP-2016-T4](2016/OBPP-2016-T4.mediawiki)**: Linking Bitcoin Addresses Together Through Network Activity
+
+**Full list: [OBPP-2016-list.mediawiki](2016/OBPP-2016-list.mediawiki)**
 
 ## Improvements
 
@@ -23,8 +21,6 @@ To make this project a great resource for the Bitcoin user and developer
  community, we need your help. There are instructions for aspiring technical and
  non-technical reviewers [here](HOWTO-PROVIDE-FEEDBACK.md), and for GitHub
  contributors [here](HOWTO-CONTRIBUTE.md).
-
-All working drafts can be found in the [2016](2016/) directory.
 
 ## About the OBPP
 
