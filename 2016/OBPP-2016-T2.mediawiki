@@ -1,12 +1,3 @@
-<pre>
-    Title: OBPP Top 4 Privacy Threats for 2016: T2: Reusing Bitcoin addresses
-    Author: Open Bitcoin Privacy Project
-    Status: Draft
-    License: Public Domain
-    Created: 2017-01-12
-    Last Updated: 2016-01-12
-</pre>
-
 == OBPP-2016-T2: Reusing Bitcoin addresses ==
 
 === Description ===
@@ -92,3 +83,10 @@ When looking up wallet addresses or transactions on block explorer websites, be 
 == Copyright ==
 
 This work is placed in the public domain.
+
+<pre>
+    Title: OBPP Top 4 Privacy Threats for 2016: T2: Reusing Bitcoin addresses
+    Author: Open Bitcoin Privacy Project
+    Created: 2017-01-12
+    Last Updated: 2016-02-01
+</pre>

@@ -1,12 +1,3 @@
-<pre>
-    Title: OBPP Top 4 Privacy Threats for 2016: T4: Linking Bitcoin Addresses Together Through Network Activity
-    Author: Open Bitcoin Privacy Project
-    Status: Draft
-    License: Public Domain
-    Created: 2017-02-01
-    Last Updated: 2016-02-01
-</pre>
-
 == OBPP-2016-T4: Linking Bitcoin Addresses Together Through Network Activity ==
 
 === Description ===
@@ -84,3 +75,10 @@ To fully protect a user’s network identity, software must consider a variety o
 == Copyright ==
 
 This work is placed in the public domain.
+
+<pre>
+    Title: OBPP Top 4 Privacy Threats for 2016: T4: Linking Bitcoin Addresses Together Through Network Activity
+    Author: Open Bitcoin Privacy Project
+    Created: 2017-02-01
+    Last Updated: 2016-02-01
+</pre>
