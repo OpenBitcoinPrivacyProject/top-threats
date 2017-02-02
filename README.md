@@ -4,7 +4,7 @@ The OBPP Top Threats Project lists the most prominent threats to Bitcoin user
  privacy. This is a resource for developers, users, and educators to identify
  weaknesses in software and products, and to guide their future remediation.
 
- == OBPP Top 4 for 2016 ==
+## OBPP Top 4 for 2016
 
 _Published February 1, 2017_
 
