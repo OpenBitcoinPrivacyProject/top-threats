@@ -1,0 +1,94 @@
+<pre>
+    Title: OBPP Top 3 Privacy Threats for 2016: T2: Reusing Bitcoin addresses
+    Author: Open Bitcoin Privacy Project
+    Status: Draft
+    License: Public Domain
+    Created: 2017-01-12
+    Last Updated: 2016-01-12
+</pre>
+
+== OBPP-2016-T2: Reusing Bitcoin addresses ==
+
+=== Description ===
+
+Sending funds to the same Bitcoin address in multiple transactions provides strong indication to privacy attackers that the funds are owned by the same entity. For this reason, a new Bitcoin address should be used to receive funds for each transaction.
+
+=== Attacker Category ===
+
+Blockchain Observer: A Blockchain Observer is an attacker who downloads information from the Bitcoin blockchain and performs statistical analysis on it to notice patterns that suggest common ownership of funds. It is easy for anyone to become such an attacker since operating a full node is inexpensive and completely open to the public by design.
+
+=== Exploitability ===
+
+'''Easy'''. It is inexpensive for individuals and organizations download the blockchain and observe that multiple transactions that send funds to the same Bitcoin address.
+
+=== Prevalence ===
+
+'''Common'''. During 2016, between 43% and 68% of transactions reused Bitcoin addresses. <ref>[https://oxt.me/charts Bitcoin address reuse chart], oxt.me</ref>
+
+=== Detectability ===
+
+'''Easy'''. Users and auditors of Bitcoin software can identify when addresses are reused by looking at the transaction history of receiving and change addresses on the blockchain using local blockchain copies or blockchain explorer websites. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!)
+
+=== Impact ===
+
+'''High'''. Avoiding the reuse of Bitcoin addresses is the most basic form of privacy protection in Bitcoin, as described in Satoshi’s whitepaper. <ref>[https://en.bitcoin.it/wiki/Bitcoin_whitepaper Bitcoin: A Peer-to-Peer Electronic Cash System], Bitcoin Wiki</ref> Without it analysis of an individual’s or organization’s finances becomes trivial.
+
+=== Am I Vulnerable? ===
+
+The majority of Bitcoin software is no longer prone to this form of information disclosure. The following protocol can help you test this:
+
+# In an empty wallet, generate a new receiving address and send small amount of funds to the address.
+# Go through the default or most natural receiving workflow to receive additional funds.
+# After at least one of the transactions has confirmed in the Bitcoin network, send some funds to an external address or wallet. The amount should not be equal to the amount you received in the first two transactions, resulting in your Bitcoin software arranging to receive the difference as one or more “change outputs.”
+# View all three transactions using a local source of blockchain data, or a block explorer website. ([[#Note|NOTE]]: Users should be cautious of adverse privacy consequences when using block explorer websites!) Observe whether the receiving address is the same for your first two receipts. In the third transaction, observe whether any of the change addresses are the same as one another or the same as any of the input addresses.
+
+Your software provider should be able to provide you with details concerning this weakness, as well as plans to improve defenses in their future development roadmap.
+
+=== Prevention and Mitigation ===
+
+Bitcoin software avoids address reuse by generating new receiving and change addresses for each transaction. To ensure that backups do not go “stale” by generating addresses, software can use hierarchical and deterministic (“HD”) methods of deriving addresses. Software can also generate user-friendly, reuse-safe addresses by utilizing Diffie-Hellman key exchange protocols, as exemplified by “stealth” addresses and Reusable Payment Codes.
+
+=== Example Attack Scenarios ===
+
+# Simon is a popular Bitcoin blogger who likes to receive tips for his articles. He has generated a “vanity” address that begins with “1Simon...” that he includes in every public posts he makes. Tanya likes one of his articles, and tweets at Simon: “Hey @SimonBlogsBitcoin, great article on arbitrage opportunities! Sending a tip now!” Pacha the privacy attacker has software that crawls websites like blogs and social media for relevant Bitcoin information. She notices that her software has linked the “1Simon...” address to Simon the blogger, and notices that very shortly after Tanya’s tweet, a payment is made to Simon’s tip address. From this she infers that the payment came from Tanya. Pacha uses additional blockchain-based attacks to analyze Tanya’s wallet and find out what she’s been buying with Bitcoin recently.
+
+=== Examples in Common Software Libraries ===
+
+TODO
+
+=== OBPP Threat Model (2nd Edition) References ===
+
+* Blockchain observer attack #1: Link transactions to a single entity based on all of them containing inputs with a common address
+* Meta attack #1: Concern that wallet backups may become unexpectedly invalid may give users an incentive to reuse addresses due to fear of losing funds
+* Meta attack #3: Overhead involved with communicating unique deposit addresses to senders may give users an incentive to reuse one address
+* Criterion I A 1 a: Number of clicks required to deviate from the default receiving functionality and generate a new non-ECDH receiving address for an existing wallet
+* Criterion I A 1 b: Number of clicks required by user to generate a ECDH receiving address (BIP 63 or BIP 47), from the default window/authenticated home page
+* Criterion I A 2 a: Non-EDCH receiving addresses are hidden from the default view once they have been used?
+* Criterion I A 2 b: Preemptively indicates a loss of privacy when user elects to receive funds at a previously-used non-ECDH address, or prohibits this operation entirely?
+* Criterion I B 1 a: Number of clicks required to deviate from the default change functionality and receive change at a newly generated address
+* Criterion I B 3 a: Change addresses are hidden from the normal receiving workflow by default to discourage using them as receiving addresses?
+* Criterion I B 3 b: Preemptively indicates a loss of privacy when user elects to reuse change addresses as receiving addresses, or prohibits this operation entirely?
+* Criterion I C 1 f: Can the wallet send to ECDH addresses (BIP 63 or BIP 47)?
+* Criterion I C 2 b: Warns user when sending to an address that the user has sent to before?
+* Criterion I C 2 c: Warns user when sending to an address that has received deposits from any source?
+* Criterion V A 1 a: Number of clicks to create the first wallet backup
+* Criterion V A 1 b: Number of clicks needed to update an existing backup due to the creation of a new receiving or change address
+* Criterion V A 3 a: Number of clicks needed to disable sending telemetry data to the wallet provider (usage statistics, automatic crash reporting, etc)
+
+== Note ==
+
+When looking up wallet addresses or transactions on block explorer websites, be cautious that these lookups can compromise your wallet’s privacy. Consider using [https://www.torproject.org/projects/torbrowser.html Tor Browser] to hide your machine’s network identity, and create a new Tor Identity in between each piece of blockchain data you look up to avoid correlating them from the perspective of the block explorer website.
+
+== References ==
+
+<references />
+
+== External Links ==
+
+* [https://arxiv.org/pdf/1107.4524v2.pdf “An Analysis of Anonymity in the Bitcoin System”. Reid and Harrigan.]
+* [https://en.bitcoin.it/wiki/Address_reuse Address reuse. Bitcoin Wiki.]
+* [https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/ Bitcoin Privacy Threat Model, 2nd Edition. Open Bitcoin Privacy Project]
+
+== Copyright ==
+
+This work is placed in the public domain.

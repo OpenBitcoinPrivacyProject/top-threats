@@ -1,0 +1,92 @@
+<pre>
+    Title: OBPP Top 3 Privacy Threats for 2016: T3: Linking network identity to Bitcoin address
+    Author: Open Bitcoin Privacy Project
+    Status: Draft
+    License: Public Domain
+    Created: 2017-01-12
+    Last Updated: 2016-01-12
+</pre>
+
+== OBPP-2016-T3: Linking network identity to Bitcoin address ==
+
+=== Description ===
+
+Bitcoin software networks with remote machines to download updates to the Bitcoin blockchain and broadcast new transactions. Without protection mechanisms, these network connections can betray information about the user’s identity to peers and third party network observers. This creates a link for strangers between the user’s real world identity and his transactions.
+
+=== Attacker Category ===
+
+Network Observer: A Network Observer is any attacker who uses passive or active network-based attacks to breach the privacy of his victim. For wallets connecting to the Bitcoin P2P network, such attackers often include nodes in the Bitcoin network and infrastructure providers such as ISPs. For client-server based wallets such as web wallets, the wallet provider is a potential network attacker, in addition to ISPs.
+
+=== Exploitability ===
+
+'''Easy'''. Because it is uncommon for users to configure the necessary protections, network observers in the Bitcoin network can easily obtain this data from full nodes and SPV wallets. Likewise, wallet providers readily gather this data, and clients connecting to their servers rarely take the precaution of using many private connections to avoid correlation by the wallet provider.
+
+=== Prevalence ===
+
+'''Common'''. A local copy of the blockchain is used to source data for approximately 1 out of every 4 or 5 transactions. <ref>[https://www.kristovatlas.com/estimating-bitcoinds-share-of-blocks/ Estimating Bitcoind's Share of Blocks], kristovatlas.com</ref> Most Bitcoin software that obtains such data from remote sources either does not support the use of privacy networks, or does not do so by default and requires substantial configuration effort by the user to enable it.
+
+=== Detectability ===
+
+'''Moderate'''. Unless a software provider transparently discloses these network-based information leaks, users generally require specialized inspection software and relevant expertise to examine the traffic created by their software and determine what is being leaked.
+
+=== Impact ===
+
+'''High'''. Network identities are often equivalent to personally identifiable information due to the rare use of protections such as Tor and VPN accounts; ISPs and cellular providers maintain detailed records on customers and retain logs of network identity data including IP addresses assigned.
+
+=== Am I Vulnerable? ===
+
+Specialized inspection software may be required to examine your software’s network traffic to determine how connections are formed and what information is transmitted. Some software may provide instructions for intermediate and advanced users on how to configure the software for use with private proxies.
+
+Your software provider should be able to provide you with details concerning this weakness, as well as plans to improve defenses in their future development roadmap.
+
+=== Prevention and Mitigation ===
+
+Software can protect a user’s network identity by implementing proxies between the user and the various kinds of network observers, including Bitcoin nodes, Internet Service Providers, and wallet providers; this is most robustly achieved by connecting the user through the Tor network or comparable private routing software by default. In order to avoid linking blockchain data that would otherwise be uncorrelated by an attacker, the software should open multiple connections to the endpoints from which it fetches data avoid reusing these connections for different queries in a detectable way. Full nodes mitigate some of these attacks by downloading their own private copy of the large blockchain. SPV and client-server based wallets can save space, bandwidth, and computation resources by downloading only the blockchain data relevant to the user, but betray more to observers by downloading only select data.
+
+=== Example Attack Scenarios ===
+
+# Paula the privacy attacker cheaply operates dozens of nodes on the Bitcoin network that simply log the IP address of the first node that broadcasts each new transaction to her. Paula works at a large Internet Service Provider, and combines her access to ISP customer data with the blockchain data she gathers with her network nodes and basic blockchain analysis to spy on what her customers are buying with bitcoin.
+
+=== Relevant Resources for Mitigation ===
+
+* [https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO Torify]
+* [https://guardianproject.info/apps/orbot/ Orbot (Android)]
+* [https://subgraph.com/orchid/index.en.html Orchid, a Tor client implementation and library written in pure Java]
+
+=== Examples in Common Software Libraries ===
+
+TODO
+
+=== OBPP Threat Model (2nd Edition) References ===
+
+* Network observer attack #1: Link addresses belonging to a single user by observing information leaked by the wallet in the process of obtaining its balance information from the network
+* Network observer attack #2: Link addresses belonging to a single user by observing source IP address for balance information queries
+* Network observer attack #3: Link addresses belonging to a single user by observing source IP address for first relay of transactions
+* Network observer attack #8: Temporally link transactions to a known IP address via side channel attacks based on wallet behavior
+* Meta attack #4: The difficulty of setting up Tor on different operating systems may be a barrier to using wallet privacy features
+* Wallet provider attack #1: Link addresses to a user by observing their backup files
+* Wallet provider attack #3: Cause the wallet to transmit usage and/or debug data back to the provider which can be used to correlate transactions to a particular user
+* Criterion II A 1 a: Number of clicks required by user to to obtain balance information without leaking their machine identity over the network
+* Criterion II A 2 a: Is balance information obtained via one of the following methods? 1) Without making queries to other network participants 2) By making queries to other network participants that do not include multiple addresses in a specific connection context 3) Via a method that matches a fraction of the blockchain beyond the addresses belonging to the wallet?
+* Criterion II A 3 a: Client provides a visual indication if the balance information is not being obtained through an anonymizing network, including IP address information
+* Criterion II B 1 a: Number of clicks required by user to route outgoing transactions through an anonymizing network
+* Criterion II B 3 a: Client provides a visual indication if outgoing transactions are not being routed through an anonymizing network, including IP address information
+* Criterion II D 1 b: Does the backup process avoid leaking information about wallet addresses (e.g. each time a new change address is created on-demand, an email backup is triggered immediately)?
+* Criterion II E 1 a: Compatible with latest version of Tails?
+* Criterion V A 2 a: Does the wallet function without requiring the user to supply personally identifying information?
+* Criterion V C 1 a: Number of clicks needed to disable sending telemetry data to the wallet provider (usage statistics, automatic crash reporting, etc)
+* Criterion V C 1 b: Number of clicks needed to ensure telemetry data is sent to the wallet provider in a manner that does not reveal the IP address of the user?
+* Criterion V C 2 a: Does the wallet avoid transmitting telemetry data to the provider before the user has a chance to review the information being sent?
+
+== References ==
+
+<references />
+
+== External Links ==
+
+* [https://arxiv.org/pdf/1107.4524v2.pdf “An Analysis of Anonymity in the Bitcoin System”. Reid and Harrigan.]
+* [https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/report-02/ Bitcoin Privacy Threat Model, 2nd Edition. Open Bitcoin Privacy Project]
+
+== Copyright ==
+
+This work is placed in the public domain.
