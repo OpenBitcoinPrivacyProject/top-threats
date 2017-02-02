@@ -4,9 +4,14 @@
 
 Sending funds to the same Bitcoin address in multiple transactions provides strong indication to privacy attackers that the funds are owned by the same entity. For this reason, a new Bitcoin address should be used to receive funds for each transaction.
 
-[[images/addressreuse1.png|''Example of an address reused many times to receive funds''|alt=Example of an address reused many times to receive funds]]
-[[images/addressreuse2.png|''Example of an address reused to receive change''|alt=Example of an address reused to receive change]]
-[[images/addressreuse3.png|''Example of healthy address use: One receive tx, one send tx, 0 balance left over''|Example of healthy address use: One receive tx, one send tx, 0 balance left over]]
+[[images/addressreuse1.png|alt=Example of an address reused many times to receive funds]]
+''Fig 1. Example of an address reused many times to receive funds''
+
+[[images/addressreuse2.png|alt=Example of an address reused to receive change]]
+''Fig 2. Example of an address reused to receive change''
+
+[[images/addressreuse3.png|alt=Example of healthy address use: One receive tx, one send tx, 0 balance left over]]
+''Fig 3. Example of healthy address use: One receive tx, one send tx, 0 balance left over''
 
 === Attacker Category ===
 
