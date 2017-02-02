@@ -56,7 +56,7 @@ Bitcoin software avoids address reuse by generating new receiving and change add
 
 === Examples in Common Software Libraries ===
 
-''If you write Bitcoin software libraries or have used them, please consider submitting code examples of how to mitigate specific threats using the library of your choice. See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-CONTRIBUTE.md HOWTO-CONTRIBUTE] and [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-PROVIDE-FEEDBACK.md HOWTO-PROVIDE-FEEDBACK]''
+''If you write Bitcoin software libraries or have used them, please consider submitting code examples of how to mitigate specific threats using the library of your choice. See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/HOWTO-CONTRIBUTE.md HOWTO-CONTRIBUTE] and [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/HOWTO-PROVIDE-FEEDBACK.md HOWTO-PROVIDE-FEEDBACK]''
 
 === OBPP Threat Model (2nd Edition) References ===
 

@@ -1,6 +1,6 @@
 == Introduction ==
 
-For more information about the OBPP Top 4 Threats project, please refer to our [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/README.md general project documentation].
+For more information about the OBPP Top 4 Threats project, please refer to our [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/README.md general project documentation].
 
 == OBPP Top 4 for 2016 ==
 
@@ -17,7 +17,7 @@ When funds residing in multiple Bitcoin addresses or scripts are spent as inputs
 
 === Details ===
 
-See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/2016/OBPP-2016-T1.mediawiki OBPP-2016-T1]
+See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/2016/OBPP-2016-T1.mediawiki OBPP-2016-T1]
 
 == OBPP-2016-T2: Reusing Bitcoin addresses ==
 
@@ -27,7 +27,7 @@ Sending funds to the same Bitcoin address in multiple transactions provides stro
 
 === Details ===
 
-See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-2016-T2.mediawiki OBPP-2016-T2]
+See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/2016/OBPP-2016-T2.mediawiki OBPP-2016-T2]
 
 == OBPP-2016-T3: Linking network identity to Bitcoin address ==
 
@@ -37,7 +37,7 @@ Bitcoin software networks with remote machines to download updates to the Bitcoi
 
 === Details ===
 
-See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-2016-T3.mediawiki OBPP-2016-T3]
+See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/2016/OBPP-2016-T3.mediawiki OBPP-2016-T3]
 
 == OBPP-2016-T4: Linking Bitcoin Addresses Together Through Network Activity ==
 
@@ -47,7 +47,7 @@ Bitcoin software must learn about past and present blockchain activity through n
 
 === Details ===
 
-See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-2016-T4.mediawiki OBPP-2016-T4]
+See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/blob/master/2016/OBPP-2016-T4.mediawiki OBPP-2016-T4]
 
 == Attacker Categories ==
 
