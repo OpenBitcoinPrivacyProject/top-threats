@@ -1,17 +1,13 @@
-<pre>
-    Title: OBPP Top 3 Privacy Threats for 2016: T1: Merging co-owned funds
-    Author: Open Bitcoin Privacy Project
-    Status: Draft
-    License: Public Domain
-    Created: 2017-01-12
-    Last Updated: 2016-01-12
-</pre>
-
 == OBPP-2016-T1: Merging co-owned funds ==
 
 === Description ===
 
 When funds residing in multiple Bitcoin addresses or scripts are spent as inputs in the same transaction, this indicates to attackers that the funds are all owned by the same person or organization. Multi-party mixing protocols such as CoinJoin are a common mitigation against this blockchain-based information leak.
+
+----
+<img src="../images/inputmerger.png"/>
+''Fig 1. Example of a transaction that merges inputs from four different addresses''
+----
 
 === Attacker Category ===
 
@@ -64,7 +60,7 @@ Specifically, these methods will help mitigate this threat:
 
 === Examples in Common Software Libraries ===
 
-TODO
+''If you write Bitcoin software libraries or have used them, please consider submitting code examples of how to mitigate specific threats using the library of your choice. See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-CONTRIBUTE.md HOWTO-CONTRIBUTE] and [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-PROVIDE-FEEDBACK.md HOWTO-PROVIDE-FEEDBACK]''
 
 === OBPP Threat Model (2nd Edition) References ===
 
@@ -103,3 +99,10 @@ When looking up wallet addresses or transactions on block explorer websites, be 
 == Copyright ==
 
 This work is placed in the public domain.
+
+<pre>
+    Title: OBPP Top 4 Privacy Threats for 2016: T1: Merging co-owned funds
+    Author: Open Bitcoin Privacy Project
+    Created: 2017-01-12
+    Last Updated: 2016-02-01
+</pre>

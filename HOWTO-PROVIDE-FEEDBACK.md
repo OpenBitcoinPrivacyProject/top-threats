@@ -1,11 +1,8 @@
 ## Technical
 
 Please provide feedback on any of the following:
-* Choice of categories
-* Should we add additional threat categories? Please start with the categories
- indicated in
- [this spreadsheet](https://docs.google.com/spreadsheets/d/1qan5rsSB7UTboIfrOlPtKBy0GDkml29_JKyxlNUyH4Y/edit?usp=sharing)
- first, or argue why those categories should be changed. See FAQ below.
+* Choice of categories (2017 edition only)
+* Should we add additional threat categories? (2017 edition only). See FAQ below.
 * Review the content of each threat category.
 * If you write Bitcoin software libraries or have used them, please consider
  submitting code examples of how to mitigate specific threats using the library
@@ -26,13 +23,13 @@ Non-technical reviewers can help out by copy editing (correcting mistakes and
 
 ## FAQ
 
-1.  Why start with just 3 categories?
+1.  Why start with just 4 categories?
 
     This project is modeled after the OWASP Top 10 project. After organizing the
     criteria in our 2nd edition threat model, we determined that there weren't
     10 well-defined threat categories presently, which is what you'd expect for
-    a field that is much newer than Web application security. These first 3
-    threat categories account for 68% of the weight assigned to the criteria in
+    a field that is much newer than Web application security. These first 4
+    threat categories account for 78% of the weight assigned to the criteria in
     our 2nd edition threat model. Over the years, we expect that the number of
     threat categories covered by this project will increase. Note that our
     threat model is the primary project intended to cover many threats, while
@@ -86,7 +83,7 @@ You can provide feedback in the form of
  and comments on
  [open pull requests](https://github.com/OpenBitcoinPrivacyProject/top-threats/pulls).
 
-You may also heckle us on Twitter [@obpp_org](https://www.twitter.com/obpp_org)
+You may also contact us on Twitter [@obpp_org](https://www.twitter.com/obpp_org)
 
 The best way to ensure that your feedback is incorporated is to submit a pull
  request. Refer to: [HOWTO-CONTRIBUTE.md](HOWTO-CONTRIBUTE.md).

@@ -1,17 +1,19 @@
-<pre>
-    Title: OBPP Top 3 Privacy Threats for 2016: T2: Reusing Bitcoin addresses
-    Author: Open Bitcoin Privacy Project
-    Status: Draft
-    License: Public Domain
-    Created: 2017-01-12
-    Last Updated: 2016-01-12
-</pre>
-
 == OBPP-2016-T2: Reusing Bitcoin addresses ==
 
 === Description ===
 
 Sending funds to the same Bitcoin address in multiple transactions provides strong indication to privacy attackers that the funds are owned by the same entity. For this reason, a new Bitcoin address should be used to receive funds for each transaction.
+
+----
+<img src="../images/addressreuse1.png"/>
+''Fig 1. Example of an address reused many times to receive funds''
+----
+<img src="../images/addressreuse2.png"/>
+''Fig 2. Example of an address reused to receive change''
+----
+<img src="../images/addressreuse3.png"/>
+''Fig 3. Example of healthy address use: One receive tx, one send tx, 0 balance left over''
+----
 
 === Attacker Category ===
 
@@ -54,7 +56,7 @@ Bitcoin software avoids address reuse by generating new receiving and change add
 
 === Examples in Common Software Libraries ===
 
-TODO
+''If you write Bitcoin software libraries or have used them, please consider submitting code examples of how to mitigate specific threats using the library of your choice. See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-CONTRIBUTE.md HOWTO-CONTRIBUTE] and [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-PROVIDE-FEEDBACK.md HOWTO-PROVIDE-FEEDBACK]''
 
 === OBPP Threat Model (2nd Edition) References ===
 
@@ -92,3 +94,10 @@ When looking up wallet addresses or transactions on block explorer websites, be 
 == Copyright ==
 
 This work is placed in the public domain.
+
+<pre>
+    Title: OBPP Top 4 Privacy Threats for 2016: T2: Reusing Bitcoin addresses
+    Author: Open Bitcoin Privacy Project
+    Created: 2017-01-12
+    Last Updated: 2016-02-01
+</pre>
