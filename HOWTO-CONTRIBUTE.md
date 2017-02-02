@@ -1,3 +1,10 @@
+## Change Freezes
+
+The categories and titles for OBPP's Top 4 for 2016 have now entered a change
+ freeze. You can submit enhancements to all other aspects of the documentation.
+ For feedback concerning the categories included, please submit GitHub issues
+ for the 2017 edition of this project.
+
 ##  Pull Requests
 
 Please fork a copy to your own username or organization, and create a
