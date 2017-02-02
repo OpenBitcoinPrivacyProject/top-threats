@@ -1,5 +1,5 @@
 <pre>
-    Title: OBPP Top 3 Privacy Threats for 2016
+    Title: OBPP Top 4 Privacy Threats for 2016
     Author: Open Bitcoin Privacy Project
     Status: Draft
     License: Public Domain

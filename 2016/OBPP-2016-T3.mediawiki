@@ -1,5 +1,5 @@
 <pre>
-    Title: OBPP Top 3 Privacy Threats for 2016: T3: Linking network identity to Bitcoin address
+    Title: OBPP Top 4 Privacy Threats for 2016: T3: Linking network identity to Bitcoin address
     Author: Open Bitcoin Privacy Project
     Status: Draft
     License: Public Domain
@@ -55,7 +55,7 @@ Software can protect a user’s network identity by implementing proxies between
 
 === Examples in Common Software Libraries ===
 
-TODO
+''If you write Bitcoin software libraries or have used them, please consider submitting code examples of how to mitigate specific threats using the library of your choice. See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-CONTRIBUTE.md HOWTO-CONTRIBUTE] and [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/HOWTO-PROVIDE-FEEDBACK.md HOWTO-PROVIDE-FEEDBACK]''
 
 === OBPP Threat Model (2nd Edition) References ===
 
