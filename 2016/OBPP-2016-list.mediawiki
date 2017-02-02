@@ -1,8 +1,8 @@
 == Introduction ==
 
-For more information about the OBPP Top 3 Threats project, please refer to our [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/README.md general project documentation].
+For more information about the OBPP Top 4 Threats project, please refer to our [https://github.com/OpenBitcoinPrivacyProject/top-threats/master/README.md general project documentation].
 
-== OBPP Top 3 for 2016 ==
+== OBPP Top 4 for 2016 ==
 
 * OBPP-2016-T1: Merging co-owned funds
 * OBPP-2016-T2: Reusing Bitcoin addresses
