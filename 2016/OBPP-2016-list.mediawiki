@@ -7,6 +7,7 @@ For more information about the OBPP Top 4 Threats project, please refer to our [
 * OBPP-2016-T1: Merging co-owned funds
 * OBPP-2016-T2: Reusing Bitcoin addresses
 * OBPP-2016-T3: Linking network identity to Bitcoin address
+* OBPP-2016-T4: Linking Bitcoin Addresses Together Through Network Activity
 
 == OBPP-2016-T1: Merging co-owned funds ==
 
@@ -37,6 +38,16 @@ Bitcoin software networks with remote machines to download updates to the Bitcoi
 === Details ===
 
 See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-2016-T3.mediawiki OBPP-2016-T3]
+
+== OBPP-2016-T4: Linking Bitcoin Addresses Together Through Network Activity ==
+
+=== Description ===
+
+Bitcoin software must learn about past and present blockchain activity through network queries. When querying for less information than the entire blockchain, the software may leak which addresses, transactions, and other blockchain elements it is interested in; this betrays to network attackers that these elements are relevant to a single person or organization. Similarly, software that sends bitcoins to recipients may leak similar information by betraying its consistent network origin to an attacker across multiple transactions.
+
+=== Details ===
+
+See: [https://github.com/OpenBitcoinPrivacyProject/top-threats/2016/master/OBPP-2016-T4.mediawiki OBPP-2016-T4]
 
 == Attacker Categories ==
 
